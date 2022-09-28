@@ -2,11 +2,6 @@ from django.shortcuts import render
 # from models import *
 # Create your views here.
 
-def home(request):
-    data = 20
-    for homes in data:
-        doll = []
-        doll.append(homes)
-        print(doll)
+def home(request): 
 
     return render(request, 'home.html')
